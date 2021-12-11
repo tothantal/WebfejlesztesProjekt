@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml"
+      xmlns:h="https://java.sun.com/jsf/html">
+    <head>
+        
+    </head>>
+    <body>
+        <p> 
+            #{countryBean.setCountries()}
+        </p>
+        
+        <h2> Countries </h2>
+        
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>LANGUAGE</th>
+                <th>CAPITAL</th>
+            </tr>
+            <tr>
+                <th>#{countryBean.getID(0)}</th>
+                <th>#{countryBean.getName(0)}</th>
+                <th>#{countryBean.getLanguage(0)}</th>
+                <th>#{countryBean.getCapital(0)}</th>
+            </tr>
+            <tr>
+                <th>#{countryBean.getID(1)}</th>
+                <th>#{countryBean.getName(1)}</th>
+                <th>#{countryBean.getLanguage(1)}</th>
+                <th>#{countryBean.getCapital(1)}</th>
+            </tr>
+            <tr>
+                <th>#{countryBean.getID(2)}</th>
+                <th>#{countryBean.getName(2)}</th>
+                <th>#{countryBean.getLanguage(2)}</th>
+                <th>#{countryBean.getCapital(2)}</th>
+            </tr>
+            <tr>
+                <th>#{countryBean.getID(3)}</th>
+                <th>#{countryBean.getName(3)}</th>
+                <th>#{countryBean.getLanguage(3)}</th>
+                <th>#{countryBean.getCapital(3)}</th>
+            </tr>
+            <tr>
+                <th>#{countryBean.getID(4)}</th>
+                <th>#{countryBean.getName(4)}</th>
+                <th>#{countryBean.getLanguage(4)}</th>
+                <th>#{countryBean.getCapital(4)}</th>
+            </tr>
+        </table>
+    </body>
+</html>
